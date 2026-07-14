@@ -7,7 +7,8 @@ import { ResumeData, ContactMessage } from '../models/portfolio.models';
   providedIn: 'root'
 })
 export class PortfolioService {
-  private apiUrl = 'https://portfolio-backend-0td3.onrender.com';
+ private apiUrl = 'https://portfolio-backend-0td3.onrender.com/api';
+
 
   constructor(private http: HttpClient) {}
 
